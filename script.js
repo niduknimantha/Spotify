@@ -164,7 +164,7 @@ const loadSong = (index) => {
   coverArtist.textContent = songData[index].artist;
   songName.textContent = songData[index].name;
   songArtist.textContent = songData[index].artist;
-  audio.src = `music/${songData[index].src}.mp3`;
+  audio.src = `${songData[index].src}.mp3`;
 };
 
 const playSong = () => {
